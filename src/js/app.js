@@ -1,7 +1,5 @@
-import * as functions from "./modules/functions.js";
+import * as functions from './modules/functions.js';
+import Bezier from 'bezier-js';
+import * as swiped from 'swiped-events';
 
 functions.isWebp();
-
-// import Swiper, { Navigation, Pagination } from 'swiper';
-
-// const swiper = new Swiper();

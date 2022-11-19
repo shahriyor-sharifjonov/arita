@@ -1,3 +1,14 @@
 mixin header()
     header.header 
-        p header
+        .header__container.container 
+            a(href="#").logo.header__logo 
+                img(src="@img/logo.svg", alt="" draggable="false")
+            nav.nav.header__nav 
+                .nav__list 
+                    .nav__item
+                        a(href="#").nav__link Designers 
+                    .nav__item
+                        a(href="#").nav__link History 
+                    .nav__item
+                        a(href="#").nav__link News 
+            button(aria-label="Open Menu").burger.header__burget 

@@ -4,21 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221119190725">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221119205215">
     <title>The Art of Arita</title>
   </head>
   <body> 
+    <div class="mouse" aria-hidden="true">
+      <div class="mouse__view">View</div>
+    </div>
+    <div class="preloader"> <span class="preloader__back">Contemporary </span>
+      <p class="preloader__forward">The Art of Árita<span class="preloader__background"> </span></p>
+    </div>
     <div class="wrapper"> 
             <header class="header"> 
-              <p>header</p>
+              <div class="header__container container"> <a class="logo header__logo" href="#"> <img src="img/logo.svg" alt="" draggable="false"></a>
+                <nav class="nav header__nav"> 
+                  <div class="nav__list"> 
+                    <div class="nav__item"><a class="nav__link" href="#">Designers </a></div>
+                    <div class="nav__item"><a class="nav__link" href="#">History </a></div>
+                    <div class="nav__item"><a class="nav__link" href="#">News </a></div>
+                  </div>
+                </nav>
+                <button class="burger header__burget" aria-label="Open Menu"> </button>
+              </div>
             </header>
-            <main class="main"> 
-              <p>main </p>
-            </main>
-            <footer class="footer">  
-              <p>footer</p>
-            </footer>
+      <main class="main">
+        <h1 class="visually-hidden">Designers studio Arita </h1>
+        <section class="main-section slide-1"> 
+          <div class="container"> 
+            <div class="slides-container"> 
+              <div class="slides-wrapper">
+                <div class="slides-container__left"> 
+                  <div class="main-section__explore">Explore Designers </div>
+                  <div class="slides-container__slide slides-container__slide--active"> 
+                    <div class="slides-container__text"> 
+                      <h2 class="slides-container__title">Kirstie van&nbsp;Noort </h2>
+                      <div class="designers-info__image"> <picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.png" alt="" draggable="false"></picture></div>
+                      <div class="designers-info__desc"> 
+                        <div class="designers-info__country">Netherlands</div>
+                        <div class="designers-info__by">photo by <br>Kenta Hasegawa</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide"> 
+                    <div class="slides-container__text"> 
+                      <h2 class="slides-container__title">Tomás Alonso</h2>
+                      <div class="designers-info__image"> <picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.png" alt="" draggable="false"></picture></div>
+                      <div class="designers-info__desc"> 
+                        <div class="designers-info__country">SPAIN</div>
+                        <div class="designers-info__by">photo by <br>Kenta Hasegawa</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide"> 
+                    <div class="slides-container__text"> 
+                      <h2 class="slides-container__title">Stefan Diez</h2>
+                      <div class="designers-info__image"> <picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.png" alt="" draggable="false"></picture></div>
+                      <div class="designers-info__desc"> 
+                        <div class="designers-info__country">Germany</div>
+                        <div class="designers-info__by">photo by <br>Kenta Hasegawa</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide"> 
+                    <div class="slides-container__text"> 
+                      <h2 class="slides-container__title">Teruhiro Yanagihara</h2>
+                      <div class="designers-info__image"> <picture><source srcset="img/9.webp" type="image/webp"><img src="img/9.png" alt="" draggable="false"></picture></div>
+                      <div class="designers-info__desc"> 
+                        <div class="designers-info__country">Japan</div>
+                        <div class="designers-info__by">photo by <br>Kenta Hasegawa</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slides-container__slide"> 
+                    <div class="slides-container__text"> 
+                      <h2 class="slides-container__title">Leon Ransmeier</h2>
+                      <div class="designers-info__image"> <picture><source srcset="img/10.webp" type="image/webp"><img src="img/10.png" alt="" draggable="false"></picture></div>
+                      <div class="designers-info__desc"> 
+                        <div class="designers-info__country">New York, USA</div>
+                        <div class="designers-info__by">photo by <br>Kenta Hasegawa</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slides-container__bg"> 
+                  <div class="slide-bg__inner slide-bg__inner--current"> <a class="slide-bg__link" href="#" data-bg="img/1.png"> </a></div>
+                  <div class="slide-bg__inner"><a class="slide-bg__link" href="#" data-bg="img/2.png"> </a></div>
+                  <div class="slide-bg__inner"><a class="slide-bg__link" href="#" data-bg="img/3.png"> </a></div>
+                  <div class="slide-bg__inner"><a class="slide-bg__link" href="#" data-bg="img/4.png"> </a></div>
+                  <div class="slide-bg__inner"><a class="slide-bg__link" href="#" data-bg="img/5.png"> </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shapes"> 
+            <div class="shapes__item shapes__item--current"> 
+              <div class="shapes__content" data-bg="#C9B39B"></div>
+            </div>
+            <div class="shapes__item"> 
+              <div class="shapes__content" data-bg="#D6D8CF"></div>
+            </div>
+            <div class="shapes__item"> 
+              <div class="shapes__content" data-bg="#D2E5DE"></div>
+            </div>
+            <div class="shapes__item"> 
+              <div class="shapes__content" data-bg="#DFE5E7"></div>
+            </div>
+            <div class="shapes__item"> 
+              <div class="shapes__content" data-bg="#D6D8CF"></div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-    <script src="js/app.min.js?_v=20221119190725"> </script>
+    <input type="hidden" value="1" id="helper-input">
+    <script src="js/app.min.js?_v=20221119205215"> </script>
   </body>
 </html>
