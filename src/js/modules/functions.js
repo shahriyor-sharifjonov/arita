@@ -11,3 +11,27 @@ export function isWebp() {
         document.documentElement.classList.add(className);
     });
 }
+
+export function settings() {
+
+}
+
+export function startAnimation() {
+
+}
+
+export function mouse() {
+
+}
+
+export function imagesSlides() {
+
+}
+
+export function shapesSlides() {
+
+}
+
+export function textSlides() {
+
+}

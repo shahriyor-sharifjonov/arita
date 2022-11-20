@@ -44,6 +44,8 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "bezier": "^0.1.0",
+    "bezier-easing": "^2.1.0",
     "bezier-js": "^6.1.0",
     "gsap": "^3.11.3",
     "swiped-events": "^1.1.6"
